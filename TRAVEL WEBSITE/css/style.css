@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #656565;
   text-align: left;
-  background-color: #f7f0f0;
+  background-color: #f7e9e9;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9535,7 +9535,7 @@ h6,
   height: 50%;
   top: 0;
   left: 0;
-  background: #f7f0f0;
+  background: #f7e9e9;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -9646,15 +9646,16 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #7AB730;
-  background: #FFFFFF;
-  color: #7AB730;
+  border: 2px solid #f10d5b;
+  background: #f7e9e9;
+  color: #f10d5b;
   transition: .5s;
+  border-radius: 3px;
 }
 
 .service-item:hover i {
-  background: #7AB730;
-  color: #FFFFFF;
+  background: #f10d5b;
+  color: #f7e9e9;
 }
 
 .package-item {
