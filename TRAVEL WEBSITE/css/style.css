@@ -529,6 +529,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  
 }
 
 .img-thumbnail {
@@ -639,7 +640,6 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  
 }
 
 .no-gutters {
@@ -9660,6 +9660,7 @@ h6,
 
 .package-item {
   transition: .5s;
+  border-radius: 25px;
 }
 
 .package-item:hover {
@@ -9675,6 +9676,12 @@ h6,
   transition: .5s;
 }
 
+.rating i{
+  font-size: 18px;
+  color: #F4538A ;
+  margin-bottom: 5px;
+}
+
 .team-social {
   position: absolute;
   width: 100%;
@@ -9685,6 +9692,7 @@ h6,
   align-items: center;
   justify-content: center;
   transition: .5s;
+
 }
 
 .team-social a.btn {
@@ -9692,6 +9700,7 @@ h6,
   margin: 0 3px;
   margin-top: 100px;
   opacity: 0;
+  border-radius: 20px;
 }
 
 .team-item:hover {
