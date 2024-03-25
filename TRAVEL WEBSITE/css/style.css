@@ -540,6 +540,7 @@ mark,
   background: #F4538A; 
   padding: 3px;
   border-radius: 50%;
+  position: relative;
   
   /* box-shadow: 0 0 0 0.2rem rgba(219, 56, 140, 0.25); */
 
@@ -9813,6 +9814,15 @@ h6,
   align-items: center;
   color: #F4538A;
   padding: 0 15px;
+  border-right: 2px solid #F4538A;
+}
+.data:last-child{
+  border-right: none;
+}
+.data i{
+  font-size: 18px;
+  margin-right: 6px;
+  padding-top: 25px;
 }
 
 .blog-item {
