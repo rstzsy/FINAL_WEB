@@ -9801,6 +9801,18 @@ h6,
   box-shadow: 0 0 20px rgba(219, 56, 140, 0.25);
   border-radius: 20px;
 }
+.testimonial .analytics{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.analytics .data {
+  display: inline ;
+  align-items: center;
+  color: #F4538A;
+  padding: 0 15px;
+}
 
 .blog-item {
   transition: .5s;
