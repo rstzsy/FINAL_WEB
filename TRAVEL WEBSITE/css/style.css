@@ -1,3 +1,4 @@
+
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -503,6 +504,7 @@ mark,
   display: inline-block;
 }
 
+
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
@@ -531,13 +533,18 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.feed-back{
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background: #F4538A; 
+  padding: 3px;
+  border-radius: 50%;
+  
+  /* box-shadow: 0 0 0 0.2rem rgba(219, 56, 140, 0.25); */
 
-.img-fluid1 {
-  max-width: 100%;
-  height: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -7745,6 +7752,7 @@ button.bg-dark:focus {
 .mt-n5,
 .my-n5 {
   margin-top: -3rem !important;
+  border-radius: 20px;
 }
 
 .mr-n5,
@@ -9670,7 +9678,6 @@ h6,
 
 .package-item {
   transition: .5s;
-  border-radius: 10px;
 }
 
 .package-item:hover {
@@ -9689,6 +9696,7 @@ h6,
 .rating i{
   font-size: 18px;
   color: #F4538A ;
+  margin-bottom: 5px;
 }
 
 .team-social {
@@ -9765,6 +9773,7 @@ h6,
   height: 20px;
   background: #f7c1c6;
   transition: .5s;
+  border-radius: 20px;
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -9773,7 +9782,8 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-  box-shadow: 0 0 30px #CCCCCC;
+  box-shadow: 0 0 20px rgba(219, 56, 140, 0.25);
+  border-radius: 20px;
 }
 
 .blog-item {
