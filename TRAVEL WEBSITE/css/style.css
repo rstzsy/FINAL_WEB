@@ -9693,6 +9693,7 @@ h6,
 
 .package-item {
   transition: .5s;
+  border-radius: 10px;
 }
 
 .package-item:hover {
