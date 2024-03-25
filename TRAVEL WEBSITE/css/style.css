@@ -1,5 +1,5 @@
-/*hello 2 chong iuuu*/
 /******* Bootstrap Theming ********/
+/* hello */
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -8,7 +8,7 @@
  */
 :root {
   --blue: #007bff;
-  --indigo: #6610f2;
+  --indigo: #6610f3;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
@@ -504,6 +504,7 @@ mark,
   display: inline-block;
 }
 
+
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
@@ -531,6 +532,30 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.feed-back{
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background: #F4538A; 
+  padding: 3px;
+  border-radius: 50%;
+  
+  /* box-shadow: 0 0 0 0.2rem rgba(219, 56, 140, 0.25); */
+
+}
+.img-fluid2 {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.img-fluid1 {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .img-thumbnail {
@@ -4450,9 +4475,9 @@ input[type="button"].btn-block {
 
 .card-header {
   padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.125); */
 }
 
 .card-footer {
@@ -4465,7 +4490,7 @@ input[type="button"].btn-block {
   margin-right: -0.625rem;
   margin-bottom: -0.75rem;
   margin-left: -0.625rem;
-  border-bottom: 0;
+  /*border-bottom: 0;*/
 }
 
 .card-header-pills {
@@ -7590,6 +7615,8 @@ button.bg-dark:focus {
 
 .p-4 {
   padding: 1.5rem !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .pt-4,
@@ -7739,6 +7766,7 @@ button.bg-dark:focus {
 .mt-n5,
 .my-n5 {
   margin-top: -3rem !important;
+  border-radius: 20px;
 }
 
 .mr-n5,
@@ -9638,6 +9666,7 @@ h6,
 
 .service-item {
   transition: .5s;
+  border-radius: 10px;
 }
 
 .service-item:hover {
@@ -9682,6 +9711,7 @@ h6,
 .rating i{
   font-size: 18px;
   color: #F4538A ;
+  margin-bottom: 5px;
 }
 
 .team-social {
@@ -9758,6 +9788,7 @@ h6,
   height: 20px;
   background: #f7c1c6;
   transition: .5s;
+  border-radius: 20px;
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -9766,11 +9797,13 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-  box-shadow: 0 0 30px #CCCCCC;
+  box-shadow: 0 0 20px rgba(219, 56, 140, 0.25);
+  border-radius: 20px;
 }
 
 .blog-item {
   transition: .5s;
+  border-radius: 10px;
 }
 
 .blog-item:hover {
