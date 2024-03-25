@@ -9777,6 +9777,9 @@ h6,
 .team-item:hover .team-img img {
   transform: scale(1.2);
 }
+.language{
+  padding-top: 10px;
+}
 
 .testimonial-carousel .owl-dots {
   margin-top: 5px;
