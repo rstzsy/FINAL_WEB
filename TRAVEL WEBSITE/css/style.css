@@ -543,6 +543,21 @@ mark,
   
   /* box-shadow: 0 0 0 0.2rem rgba(219, 56, 140, 0.25); */
 
+<<<<<<< HEAD
+=======
+.img-fluid2 {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.img-fluid1 {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+>>>>>>> 4a4f69fe8bc93a545bb5fd69cffb30716dad9af1
 }
 
 
@@ -4463,9 +4478,9 @@ input[type="button"].btn-block {
 
 .card-header {
   padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.125); */
 }
 
 .card-footer {
@@ -4478,7 +4493,7 @@ input[type="button"].btn-block {
   margin-right: -0.625rem;
   margin-bottom: -0.75rem;
   margin-left: -0.625rem;
-  border-bottom: 0;
+  /*border-bottom: 0;*/
 }
 
 .card-header-pills {
@@ -7603,6 +7618,8 @@ button.bg-dark:focus {
 
 .p-4 {
   padding: 1.5rem !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .pt-4,
@@ -9652,6 +9669,7 @@ h6,
 
 .service-item {
   transition: .5s;
+  border-radius: 10px;
 }
 
 .service-item:hover {
@@ -9788,6 +9806,7 @@ h6,
 
 .blog-item {
   transition: .5s;
+  border-radius: 10px;
 }
 
 .blog-item:hover {
