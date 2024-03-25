@@ -532,6 +532,13 @@ mark,
   height: auto;
 }
 
+.img-fluid1 {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #F3F3F3;
@@ -9663,6 +9670,7 @@ h6,
 
 .package-item {
   transition: .5s;
+  border-radius: 10px;
 }
 
 .package-item:hover {
