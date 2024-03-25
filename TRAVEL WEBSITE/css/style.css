@@ -543,8 +543,7 @@ mark,
   
   /* box-shadow: 0 0 0 0.2rem rgba(219, 56, 140, 0.25); */
 
-<<<<<<< HEAD
-=======
+}
 .img-fluid2 {
   max-width: 100%;
   height: auto;
@@ -557,9 +556,7 @@ mark,
   height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
->>>>>>> 4a4f69fe8bc93a545bb5fd69cffb30716dad9af1
 }
-
 
 .img-thumbnail {
   padding: 0.25rem;
