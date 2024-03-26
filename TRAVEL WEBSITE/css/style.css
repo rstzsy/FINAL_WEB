@@ -557,6 +557,13 @@ img.Imagealignment{
   border-top-right-radius: 10px;
 }
 
+.img-fluid3 {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .img-fluid1 {
   max-width: 100%;
   height: auto;
@@ -9729,6 +9736,7 @@ h6,
 
 .team-item {
   transition: .5s;
+  border-radius: 10px;
 }
 
 .rating i{
@@ -9747,6 +9755,8 @@ h6,
   align-items: center;
   justify-content: center;
   transition: .5s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
 }
 
@@ -9758,12 +9768,13 @@ h6,
   border-radius: 20px;
 }
 
-.team-item:hover {
+.team-item:hover{
   box-shadow: 0 0 30px #CCCCCC;
 }
 
 .team-item:hover .team-social {
   background: rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 10px;
 }
 
 .team-item:hover .team-social a.btn:first-child {
@@ -9788,6 +9799,12 @@ h6,
   opacity: 1;
   margin-top: 0;
   transition: .3s .15s;
+  border-top-left-radius: 10px;
+}
+
+.team-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .team-item .team-img img {
