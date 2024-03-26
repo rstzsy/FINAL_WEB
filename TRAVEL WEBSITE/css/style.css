@@ -9919,3 +9919,45 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+/* Hotel layout */
+.subheader_hotel{
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.subheader_hotel::after{
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translate(1rem, -50%);
+  height: 2px;
+  width: 4rem;
+  background-color: #000;
+}
+
+.img-fluid_hotel{
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  
+}
+section__header_hotel{
+  max-width: 600px;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: #000;
+}
+
+.room__card__icons{
+  font-size: 30px;
+  padding-right: 20px;
+  margin-right: 25px;
+  color: #f10d5b;
+}
+
