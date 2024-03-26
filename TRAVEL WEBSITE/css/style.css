@@ -548,10 +548,11 @@ img.Imagealignment{
   margin: 10px 0;
   height: 150px;
   width: 150px;
-  background: #F4538A; 
+  background: #f7e9e9 ; 
   padding: 3px;
   border-radius: 50%;
   position: relative;
+  border: 3px solid #F4538A;
   
   /* box-shadow: 0 0 0 0.2rem rgba(219, 56, 140, 0.25); */
 
@@ -6288,7 +6289,8 @@ button.bg-dark:focus {
 }
 
 .border-top {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 2px solid #f10d5b !important;
+
 }
 
 .border-right {
@@ -9972,6 +9974,16 @@ section__header_hotel{
 }
 
 .room__card__icons{
+  position: absolute;
+  right: -12rem;
+  bottom: 16rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+  z-index: 1;
   font-size: 30px;
   color: #f10d5b;
 }
@@ -9981,15 +9993,19 @@ section__header_hotel{
   display: flex;
   align-items: center;
   width: 100%;
-  margin-top: 5px;
   margin-bottom: 5px;
 }
-.icons .data {
-  display: inline-block;
+.icons .data i{
+  display: flex;
+  position: relative;
   align-items: center;
   color: #f10d5b;
-  padding: 0 9px;
+  padding: 0 12px;
+  /* background-color: #fff; */
+  /* border-radius: 100%;
+  box-shadow: 0 0 0 0.2rem rgba(219, 56, 140, 0.25); */
 }
+
 
 .icons .data i{
   font-size: 30px;
