@@ -9973,8 +9973,24 @@ section__header_hotel{
 
 .room__card__icons{
   font-size: 30px;
-  padding-right: 20px;
-  margin-right: 25px;
   color: #f10d5b;
 }
 
+
+.room__card__icons .icons{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.icons .data {
+  display: inline-block;
+  align-items: center;
+  color: #f10d5b;
+  padding: 0 9px;
+}
+
+.icons .data i{
+  font-size: 30px;
+}
