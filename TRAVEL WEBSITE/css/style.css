@@ -706,7 +706,7 @@ pre code {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #e83e8c;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
   -webkit-animation: my 1000ms infinite;
   -moz-animation: my 1000ms infinite;
   -o-animation: my 1000ms infinite;
@@ -747,6 +747,13 @@ pre code {
   border-width: 5px;
   border-image-slice:1;
   border-image-source: linear-gradient(to right,#FFC0CB,#FFB6C1,#FFB6C1,#FF1493);
+}
+
+.top8 {
+  border-top: dashed 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-color: #e50e81;
 }
 
 @media (min-width: 576px) {
