@@ -680,12 +680,73 @@ pre code {
 }
 
 .container-fluidBT {
+  display: block;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 .container-fluidCM {
   border-radius: 10px;
+  margin-top: 10px;
+}
+
+.headcomment {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #e83e8c;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  -webkit-animation: my 1000ms infinite;
+  -moz-animation: my 1000ms infinite;
+  -o-animation: my 1000ms infinite;
+  animation: my 1000ms infinite;
+}
+
+.headcomment1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #e83e8c;
+  text-align: center;
+  margin-top: 100px;
+  -webkit-animation: my 1000ms infinite;
+  -moz-animation: my 1000ms infinite;
+  -o-animation: my 1000ms infinite;
+  animation: my 1000ms infinite;
+}
+
+@-webkit-keyframes my {
+  0% { color: #FFB6C1; }
+  50% { color: #000; }
+  100% { color: #FF1493; }
+  }
+  @-moz-keyframes my {
+  0% { color: #FFB6C1; }
+  50% { color: #000; }
+  100% { color: #FF1493; }
+  }
+  @-o-keyframes my {
+  0% { color: #FFB6C1; }
+  50% { color: #000; }
+  100% { color: #FF1493; }
+  }
+  @keyframes my {
+  0% { color: #FFB6C1; }
+  50% { color: #000; }
+  100% { color: #FF1493; }
+  }
+
+.border-top5 {
+  border-top: 10px solid !important;
+  border-image-slice:1;
+  border-image-source: linear-gradient(to right,#FFC0CB,#FFB6C1,#FFB6C1,#FF1493);
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.border-top6 {
+  border-style: dotted;
+  border-width: 5px;
+  border-image-slice:1;
+  border-image-source: linear-gradient(to right,#FFC0CB,#FFB6C1,#FFB6C1,#FF1493);
 }
 
 @media (min-width: 576px) {
@@ -9700,6 +9761,31 @@ h6,
   background-size: cover;
 }
 
+.page-headerCA {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/phnomPenh.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.page-headerIN {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/padarIsland.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.page-headerLA {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/xiengthongWat.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.page-headerSI {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/marinaBaySands.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.page-headerTL {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/aoPhraNangBeach.jpg), no-repeat center center;
+  background-size: cover;
+}
+
 /*.destination-item img {
   transition: .5s;
 }*/
@@ -9715,6 +9801,10 @@ h6,
   display: block;
   margin: auto;
   border-radius: 10px;
+}
+
+.img-fluid8 {
+  border-radius: 50%;
 }
 
 .destination-overlay {
