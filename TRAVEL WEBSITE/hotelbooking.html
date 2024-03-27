@@ -201,33 +201,28 @@
     
     <!-- About Start -->
     <div class="container-fluid py-5">
-        <div class="container pt-5">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100% h-100" src="img_hotel/about.jpg" style="object-fit: cover;">
+                <div class="col-lg-6">
+                    <div class="image-container position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img_hotel/about.jpg" alt="about" style="object-fit: cover;"/>
                     </div>
                 </div>
-                <div class="col-lg-6 pt-5 pb-lg-5">
-                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                        <h6 class="subheader_hotel text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
-                        <h1 class="mb-3">The Best Holidays Start Here!</h1>
-                        <p>With a focus on quality accommodations, personalized experiences, and
+                <div class="col-lg-6 pb-lg-5">
+                    <div class="about_content p-4 ">
+                        <p class="subheader_hotel">ABOUT US</p>
+                        <h2 class="section__header_hotel">The Best Holidays Start Here!</h2>
+                        <p class="section__description">
+                            With a focus on quality accommodations, personalized experiences, and
                             seamless booking, our platform is dedicated to ensuring that every
                             traveler embarks on their dream holiday with confidence and
-                            excitement.</p>
-                        <div class="row mb-4">
-                            <div class="col-6">
-                                <img class="img-fluid_hotel" src="img_hotel/about-1.jpg" alt="">
-                            </div>
-                            <div class="col-6">
-                                <img class="img-fluid_hotel" src="img_hotel/about-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary mt-1">Book Now</a>
-                    </div>
+                            excitement.
+                        </p>
+                        <a href="" class="btn_hotel btn btn-primary mt-1">Book Now</a>
+                    </div> 
                 </div>
             </div>
+            
         </div>
     </div>
     <!-- About End -->
@@ -235,9 +230,9 @@
     <!-- Booking start-->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
-            <h6 class="subheader_hotel text-primary text-uppercase" style="letter-spacing: 5px; font-size: large;">Our Living Room</h6>
-            <h2 class="section__header_hotel">The Most Memorable Rest </h2>
-            <h2 class="section__header_hotel"> Time Starts Here.</h2>
+            <h6 class="subheader_hotel2 text-primary text-uppercase" style="letter-spacing: 5px; font-size: large;">Our Living Room</h6>
+            <h2 class="section__header_hotel1">The Most Memorable Rest </h2>
+            <h2 class="section__header_hotel2"> Time Starts Here.</h2>
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Hotel Booking</h6>
                 <h1>Perfect Rooms</h1>
@@ -421,7 +416,54 @@
             </div>
         </div>
     </div>
-     <!-- Booking End-->
+    <!-- Booking End-->
+    <!-- section service start -->
+    <section class="service_hotel col-lg-12 col-md-12 mb-6" id="service">
+        <div class="section_container_hotel service_container_hotel">
+            <div class="service_content_hotel1">
+                <p class="section_subheader_hotel">SERVICES</p>
+                <h2 class="section_header_hotel">Strive Only For The Best.</h2>
+                <ul class="service_list_hotel">
+                    <li>
+                        <span><i class="fa-duotone fa-shield-cat fa-beat-fade"></i></span>
+                        High Class Security
+                    </li>
+                    <li>
+                        <span><i class="fa-duotone fa-timer fa-beat"></i></span>
+                        24 Hours Room Service
+                    </li>
+                    <li>
+                        <span><i class="fa-duotone fa-phone-volume fa-beat-fade"></i></span>
+                        Conference Room
+                    </li>
+                    <li>
+                        <span><i class="fa-duotone fa-map-location-dot fa-beat-fade"></i></span>
+                        Tourist Guide Support
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section service End -->
+    <!-- banner start -->
+    <section class="container-fluid py-5 px-sm-3 px-lg-5 ">
+        <div class="banner_content">
+          <div class="banner_card">
+            <h4>25+</h4>
+            <p>Properties Available</p>
+          </div>
+          <div class="banner_card">
+            <h4>350+</h4>
+            <p>Bookings Completed</p>
+          </div>
+          <div class="banner_card">
+            <h4>600+</h4>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </section>
+    <!-- banner end -->
 
 
     <!-- Footer Start -->
@@ -508,7 +550,8 @@
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
-
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>

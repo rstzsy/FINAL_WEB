@@ -67,3 +67,51 @@
     });
     
 })(jQuery);
+
+const scrollRevealOption = {
+    distance: "50px",
+    origin: "bottom",
+    duration: 1000,
+};
+
+// hotel booking
+ScrollReveal().reveal(".image-container img", {
+    ...scrollRevealOption,
+    origin: "left",
+});
+
+ScrollReveal().reveal(".about_content .subheader_hotel", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".about_content .section__header_hotel", {
+    ...scrollRevealOption,
+    delay: 900,
+});
+
+ScrollReveal().reveal(".about_content .section__description", {
+    ...scrollRevealOption,
+    delay: 1500,
+});
+
+ScrollReveal().reveal(".about_content .btn_hotel", {
+    ...scrollRevealOption,
+    delay: 2000,
+});
+ScrollReveal().reveal(".subheader_hotel2", {
+    ...scrollRevealOption,
+    delay: 2100,
+});
+
+ScrollReveal().reveal(".section__header_hotel1", {
+    ...scrollRevealOption,
+    delay: 2300,
+});
+
+ScrollReveal().reveal(".section__header_hotel2", {
+    ...scrollRevealOption,
+    delay: 2400,
+});
+
+

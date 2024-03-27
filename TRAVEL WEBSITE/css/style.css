@@ -9964,7 +9964,8 @@ h6,
   position: relative;
   
 }
-section__header_hotel{
+
+.section__header_hotel{
   max-width: 600px;
   margin-bottom: 1rem;
   font-size: 2.5rem;
@@ -10010,3 +10011,156 @@ section__header_hotel{
 .icons .data i{
   font-size: 30px;
 }
+
+/* About Start hotel */
+
+/* .container_hotel{
+  display: flex;
+  gap: 2rem
+}
+
+.col-lg-6 img {
+  max-width: 450px;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.container_hotel{
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.col-lg-6_hotel {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.image-container_hotel{
+  display: flex;
+  justify-content: center;
+}
+
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.row_hotel {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* .about_content{
+  padding-left: 20%;
+} */
+
+.subheader_hotel{
+  color: #F4538A;
+}
+/* section service start */
+.service_hotel {
+  background-image: url("../img_hotel/service.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.section_container_hotel {
+  max-width: max-content;
+  margin: auto;
+  padding: -1rem -1rem;
+}
+
+.section_subheader_hotel{
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #000;
+}
+.section_subheader_hotel::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translate(1rem, -50%);
+  height: 2px;
+  width: 4rem;
+  background-color: #000;
+}
+.section_header_hotel{
+  max-width: 600px;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: #000;
+}
+
+.service_container_hotel {
+  padding-block: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.service_content_hotel1{
+  grid-column: 2/3;
+  padding: 2rem 4rem;
+  background-color: #f7f2f3;
+  width: 100%;
+
+}
+
+.service_list_hotel {
+  list-style: none;
+  margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.service_list_hotel li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.service_list_hotel span {
+  padding: 5px 12px;
+  font-size: 1.75rem;
+  color: #f10d5b;
+  background-color: #f7e9e9;
+  border-radius: 100%;
+}
+
+.banner_content {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(219, 56, 140, 0.23);
+  background-color: #f7e9e9;
+}
+.banner_card {
+  text-align: center;
+  flex: 1 1 180px;
+}
+.banner_card h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+.banner__card p {
+  color: var(--text-light);
+}
+
+
+
