@@ -842,6 +842,11 @@ pre code {
   flex: 0 0 100%;
   max-width: 100%;
 }
+.ChiangMai{
+  width: 20px;
+  max-height: 100px;
+}
+
 
 .order-first {
   order: -1;
@@ -6289,8 +6294,10 @@ button.bg-dark:focus {
 }
 
 .border-top {
-  border-top: 2px solid #f10d5b !important;
-
+   border-top: 3px solid !important; 
+   border-image-slice:1;
+   border-image-source: linear-gradient(to right,#FFC0CB,#FFB6C1,#FF69B4,#FF1493);
+   border-radius: 10px;
 }
 
 .border-right {
@@ -6310,7 +6317,7 @@ button.bg-dark:focus {
 }
 
 .border-top-0 {
-  border-top: 0 !important;
+  border-top:0 !important;
 }
 
 .border-right-0 {
