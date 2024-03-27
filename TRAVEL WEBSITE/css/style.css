@@ -10257,11 +10257,13 @@ h6,
   flex-wrap: wrap;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(219, 56, 140, 0.23);
-  background-color: #f7e9e9;
+  background-color: #f2f2f2;
+  margin-top: 90px;
 }
 .banner_card {
   text-align: center;
   flex: 1 1 180px;
+  
 }
 .banner_card h4 {
   font-size: 2rem;
