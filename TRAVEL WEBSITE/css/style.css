@@ -557,11 +557,10 @@ img.Imagealignment{
   /* box-shadow: 0 0 0 0.2rem rgba(219, 56, 140, 0.25); */
 
 }
-.img-fluid3 {
+.img-fluid7 {
   max-width: 100%;
   height: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
 }
 .img-fluid2 {
   max-width: 100%;
@@ -678,6 +677,15 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   
+}
+
+.container-fluidBT {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container-fluidCM {
+  border-radius: 10px;
 }
 
 @media (min-width: 576px) {
@@ -9677,6 +9685,11 @@ h6,
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.page-headerBT {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/benthanh.jpg), no-repeat center center;
   background-size: cover;
 }
 
