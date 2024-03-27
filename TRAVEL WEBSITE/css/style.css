@@ -4764,6 +4764,7 @@ input[type="button"].btn-block {
   color: #000;
   background-color: #f7e9e9;
   border: 1px solid #f7c1c6;
+  border-radius: 5%;
 }
 
 .page-link:hover {
@@ -4772,16 +4773,19 @@ input[type="button"].btn-block {
   text-decoration: none;
   background-color: #EED3D9;
   border-color: #F4538A;
+  border-radius: 10%;
 }
 
 .page-link:focus {
   z-index: 3;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(238, 73, 130, 0.25);
+  border-radius: 10%;
 }
 
 .page-item:first-child .page-link {
   margin-left: 0;
+  border-radius: 10%;
 }
 
 .page-item.active .page-link {
@@ -4789,7 +4793,9 @@ input[type="button"].btn-block {
   color: #000;
   background-color: #F4538A;
   border-color: #F4538A;
+  border-radius: 10%;
 }
+
 
 .page-item.disabled .page-link {
   color: #000;
@@ -4797,6 +4803,7 @@ input[type="button"].btn-block {
   cursor: auto;
   background-color: #f7e9e9;
   border-color: #f7c1c6;
+  border-radius: 10%;
 }
 
 .pagination-lg .page-link {
