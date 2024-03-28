@@ -713,6 +713,11 @@ pre code {
   animation: my 1000ms infinite;
 }
 
+.shopping {
+  background-color: #ff006a;
+  border-radius: 100px;
+}
+
 @-webkit-keyframes my {
   0% { color: #FFB6C1; }
   50% { color: #000; }
@@ -2502,6 +2507,7 @@ textarea.form-control {
     transition: none;
   }
 }
+
 
 .btn:hover {
   color: #656565;
